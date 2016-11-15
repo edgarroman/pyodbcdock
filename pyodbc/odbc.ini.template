@@ -1,0 +1,7 @@
+[PBSTest]
+Driver = FreeTDS
+TDS_Version = 8.0
+Server = <ServerName>
+Port = 1433
+Database = <database>
+UID = <Username>
