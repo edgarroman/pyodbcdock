@@ -24,3 +24,4 @@ chmod +x /usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
 run pip install --upgrade pip
 run pip install pyodbc
 #run pip install django-pyodbc
+#run pip install django-pyodbc-azure
