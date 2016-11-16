@@ -1,6 +1,6 @@
 [PBSTest]
 Driver = FreeTDS
-TDS_Version = 8.0
+TDS_Version = 7.2
 Server = <ServerName>
 Port = 1433
 Database = <database>

@@ -1,5 +1,7 @@
 [global]
+    # See: http://www.freetds.org/userguide/choosingtdsprotocol.htm
     # TDS protocol version, use:
+    # 7.4 for SQL Server 2012 or 2014
     # 7.3 for SQL Server 2008 or greater (tested through 2014)
     # 7.2 for SQL Server 2005
     # 7.1 for SQL Server 2000
@@ -21,13 +23,7 @@
     # Try setting 'text size' to a more reasonable limit 
     text size = 64512
 
-# A typical Microsoft server
-[dbserverdsn]
-    host = dbserver.domain.com
-    port = 1433
-    tds version = 7.2
-
 [PBSTest]
     host = <server>
     port = 1433
-    tds version = 8.0
+    tds version = 7.2

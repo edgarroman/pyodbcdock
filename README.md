@@ -24,4 +24,6 @@ docker run --rm -ti <image name>[:<version tag>] /sbin/my_init -- bash -l
 ```
 
 ### Run a docker container and expose port 9000 in debug mode 
+```sh
 docker run --rm -t -p 8000:80 -i <image name>[:<version tag>] /sbin/my_init -- bash -l
+```

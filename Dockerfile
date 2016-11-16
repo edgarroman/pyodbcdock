@@ -6,7 +6,9 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en  
 ENV LC_ALL en_US.UTF-8  
 
+# TODO: Debug only!
 RUN apt-get update
+
 ADD . /image_build
 RUN /image_build/setup.sh
 
